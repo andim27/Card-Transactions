@@ -5,10 +5,6 @@ import 'package:flutter_svg/flutter_svg.dart';
 class BankCardView extends StatefulWidget {
   BankCardView({Key key}) : super(key: key);
 
-  List<Text> _accountDots(int count) {
-    return List.generate(count, (i) => Text("*")).toList(); // replace * with your rupee or use Icon instead
-  }
-
   @override
   _BankCardViewState createState() => _BankCardViewState();
 }
