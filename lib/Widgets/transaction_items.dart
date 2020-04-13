@@ -11,8 +11,9 @@ class TransactionItems extends StatefulWidget {
 class _TransactionItemsState extends State<TransactionItems> {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Center(child:Container(
+       margin: EdgeInsets.all(10),
        child: Text('Transaction Items'),
-    );
+    ));
   }
 }

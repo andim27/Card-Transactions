@@ -33,8 +33,7 @@ class _TransactionPageState extends State<TransactionPage> {
       ),
       body: Center(
         child: Stack(
-              children: [
-               
+              children: [               
                 Container(
                   margin: const EdgeInsets.fromLTRB(0, 100, 0, 0),
                   decoration: BoxDecoration(
@@ -48,9 +47,9 @@ class _TransactionPageState extends State<TransactionPage> {
                 ),
                 Positioned(child: new TransactionItems(),top: 250),
                 Positioned(child: Stack(children: <Widget>[
-                                        Positioned(child: new BankCard(backgroundColor: AppColors.cardBackGround_3,cardWidth:0.7),top: 0,left: 40),
-                                        Positioned(child: new BankCard(backgroundColor: AppColors.cardBackGround_2,cardWidth:0.8),top: -10, left: 20),
-                                        Positioned(child: new BankCard(backgroundColor: AppColors.cardBackGround_1,cardWidth:0.9),top: -20),
+                                        Positioned(child: new BankCard(cardNumber:3),top: 0,left: 40),
+                                        Positioned(child: new BankCard(cardNumber:2),top: -10, left: 20),
+                                        Positioned(child: new BankCard(cardNumber:1),top: -20),
                 ]))
                  
                 ],
