@@ -19,6 +19,8 @@ class AppColors {
   //static  const primary =   Colors.indigo;
   static  const MaterialColor primary = MaterialColor(0xff1A237E, color);
   static  const Color transactionBody = const Color(0xff1A237E);
+  static  const Color sumPlusColor = const Color(0xff1A237E);
+  static  const Color sumMinusColor = const Color(0xFFE91E63);
   static  const Color cardBackGround_1 = Colors.blue; //const Color(0xFF52AFCC);
   static  const Color cardBackGround_2 = const Color(0xFFE91E63);
   static  const Color cardBackGround_3 = const Color(0xFF4A148C);

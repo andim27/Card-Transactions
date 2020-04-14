@@ -31,8 +31,8 @@ class _TransactionPageState extends State<TransactionPage> {
         ),
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Stack(
+      body: Center(       
+        child: Stack(          
               children: [               
                 Container(
                   margin: const EdgeInsets.fromLTRB(0, 100, 0, 0),
@@ -45,7 +45,7 @@ class _TransactionPageState extends State<TransactionPage> {
                     )
                   )
                 ),
-                Positioned(child: new TransactionItems(),top: 250),
+                Positioned(child: new TransactionItems(),top: 200,width: MediaQuery.of(context).size.width*0.95),
                 Positioned(child: Stack(children: <Widget>[
                                         Positioned(child: new BankCard(cardNumber:3),top: 0,left: 40),
                                         Positioned(child: new BankCard(cardNumber:2),top: -10, left: 20),
