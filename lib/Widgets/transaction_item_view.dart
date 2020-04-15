@@ -21,7 +21,6 @@ class _TransactionItemViewState extends State<TransactionItemView> {
 
   @override
   Widget build(BuildContext context) {
-    print("ItemsView $widget.items");
     String description = widget.items[widget.itemIndex].description;
     String status = widget.items[widget.itemIndex].status;
     String sumStr = "\$";
